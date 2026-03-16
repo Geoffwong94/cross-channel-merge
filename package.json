@@ -1,0 +1,31 @@
+{
+  "name": "cross-channel-merge",
+  "version": "1.0.0",
+  "description": "跨渠道聊天记录合并/整合技能。支持 WebChat, WhatsApp, Telegram, Discord, 飞书等多渠道会话统一存储。",
+  "author": "Geoffwong94",
+  "license": "MIT-0",
+  "homepage": "https://github.com/Geoffwong94/cross-channel-merge",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Geoffwong94/cross-channel-merge.git"
+  },
+  "keywords": [
+    "cross-channel",
+    "merge",
+    "whatsapp",
+    "telegram",
+    "discord",
+    "feishu",
+    "webchat",
+    "openclaw",
+    "skill"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js merge",
+    "dashboard": "node index.js dashboard",
+    "webhook": "node whatsapp-webhook/server.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
